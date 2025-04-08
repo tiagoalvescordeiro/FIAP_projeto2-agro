@@ -1,12 +1,16 @@
-*.log
-*.tmp
+# Arquivos e pastas do sistema
 AppData/
 Downloads/
-.vscode/
-*.dmp
-*.class
-*.DS_Store
+.DS_Store
+
+# Arquivos temporários e de log
+*.log
+*.tmp
 *.bak
 *.swp
 *.swo
+
+# IDEs/editores
+.vscode/
+*.class
 
