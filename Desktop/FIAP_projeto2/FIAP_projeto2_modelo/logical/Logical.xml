@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6DDAE5A7-B0BA-D0F6-7E64-59221AFD8DAF" mainViewID="1AF01B45-585C-70C7-7EC8-BD4B06A39337">
-<createdBy>Usuario</createdBy>
-<createdTime>2025-04-04 01:13:32 UTC</createdTime>
-<ownerDesignName>FIAP_projeto2_modelo</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
