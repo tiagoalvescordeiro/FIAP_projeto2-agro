@@ -1,0 +1,54 @@
+SENSOR
+  codigo_sensor: NUMERIC 
+  tipo: VARCHAR(30)
+  nome: VARCHAR(100)
+  ativado: BOOLEAN
+  latitude: INTEGER
+  longitude: INTEGER
+  
+INSUMO
+  tipo: VARCHAR(100)
+  unidade_de_medida: VARCHAR(10)
+  quantidade: INTEGER
+
+LEITURA
+  valor: DECIMAL
+  timestamp: DATE
+
+*APLICACAO_INSUMO
+  tipo: VARCHAR(100)
+  quantidade: DECIMAL
+  timestamp: DATE
+
+
+APLICADOR
+  tipo:
+  codigo: 
+  nome:
+  cargo:
+
+
+
+
+MER - 
+
+SENSOR pode gerar várias LEITURA
+LEITURA deve ser gerada por um SENSOR
+
+0:N 
+
+--- 
+
+APLICADOR --> APLICACAO_INSUMO <-- INSUMO
+
+APLICADOR pode fazer varias APLICACAO_INSUMO
+APLICACAO_INSUMO deve ser feita por um APLICADOR
+
+1:N
+
+APLICACAO_INSUMO deve conter 1 INSUMO
+INSUMO pode estar contido em varias APLICACAO_INSUMO
+
+1:N
+
+--- 
