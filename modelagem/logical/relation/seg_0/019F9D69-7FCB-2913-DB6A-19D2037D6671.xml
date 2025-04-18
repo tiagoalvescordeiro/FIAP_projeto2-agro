@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv3" directorySegmentName="seg_0" id="019F9D69-7FCB-2913-DB6A-19D2037D6671">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T APLICADOR T FAZENDA" directorySegmentName="seg_0" id="019F9D69-7FCB-2913-DB6A-19D2037D6671">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:19:37 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

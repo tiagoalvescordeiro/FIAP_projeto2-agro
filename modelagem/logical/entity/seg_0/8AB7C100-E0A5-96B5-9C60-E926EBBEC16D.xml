@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AB7C100-E0A5-96B5-9C60-E926EBBEC16D" name="T_PLANTACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AB7C100-E0A5-96B5-9C60-E926EBBEC16D" name="T PLANTACAO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:23:44 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_plantacao" id="7DC59372-5564-A845-E901-92B26B5B1FDB">
+<Attribute name="cd plantacao" id="7DC59372-5564-A845-E901-92B26B5B1FDB">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:03:46 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_fazenda" id="D8C2C667-821A-CD60-27F5-49569CB5B98E">
+<Attribute name="cd fazenda" id="D8C2C667-821A-CD60-27F5-49569CB5B98E">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:06:03 UTC</createdTime>
 <generatorID>A2F689C6-982A-68F3-A037-5FA72EC53BDF</generatorID>
@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_cultura" id="B0C5FB9E-9341-6D6F-3B1F-DF71E09D175E">
+<Attribute name="cd cultura" id="B0C5FB9E-9341-6D6F-3B1F-DF71E09D175E">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:09:56 UTC</createdTime>
 <generatorID>47E7FBB4-DF90-3FC0-83E0-F2DA2320CFA8</generatorID>
@@ -50,6 +50,7 @@
 <item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
 </engineerTo>
 <referedAttribute>707528DA-91CD-7B60-D1C3-5C9F5C2E4E2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -82,7 +83,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_inicio_plantio" id="5262A829-95E8-E31D-40AA-C740A3AAF5CF">
+<Attribute name="dt inicio plantio" id="5262A829-95E8-E31D-40AA-C740A3AAF5CF">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:04:57 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -94,7 +95,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_colheita" id="8A3C89DC-63A5-C495-31A2-B7F5CC7BD87F">
+<Attribute name="dt colheita" id="8A3C89DC-63A5-C495-31A2-B7F5CC7BD87F">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:05:21 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -109,7 +110,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C48CA248-D812-5C7A-00D2-BE2C3DD86DC0" name="T_PLANTACAO PK">
+<identifier id="C48CA248-D812-5C7A-00D2-BE2C3DD86DC0" name="PK_T_PLANTACAO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:05:44 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

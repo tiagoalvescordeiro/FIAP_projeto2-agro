@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6D23844-B0C5-7A05-3CDD-3BC2E592EB32" name="T_INSUMO_CULTURA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6D23844-B0C5-7A05-3CDD-3BC2E592EB32" name="T INSUMO CULTURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:50:31 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_cultura" id="CC480397-3252-801C-A706-06FC68F6D5E8">
+<Attribute name="cd cultura" id="CC480397-3252-801C-A706-06FC68F6D5E8">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:54:44 UTC</createdTime>
 <generatorID>1B8912CB-C5E4-E3AD-82FC-5CC815B9052B</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_insumo" id="80EC438B-FEB3-CE87-33D8-F65348717193">
+<Attribute name="cd insumo" id="80EC438B-FEB3-CE87-33D8-F65348717193">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:56:22 UTC</createdTime>
 <generatorID>A0914DB3-7957-4103-4993-BC28BDA3DA64</generatorID>
@@ -59,7 +59,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0AAA86CA-B6C1-6CB6-13A0-9368409594D2" name="INSUMO_CULTURA PK">
+<identifier id="0AAA86CA-B6C1-6CB6-13A0-9368409594D2" name="PK_T_INSU_CLTR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:54:44 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

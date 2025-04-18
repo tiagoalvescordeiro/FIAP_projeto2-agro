@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAFAC67C-9A61-9D6C-CEA8-9C1698393671" name="T_FORNECEDOR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAFAC67C-9A61-9D6C-CEA8-9C1698393671" name="T FORNECEDOR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 22:06:24 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_fornecedor" id="A2D60D0B-2EC3-C485-4CE0-D7149DEBA642">
+<Attribute name="cd fornecedor" id="A2D60D0B-2EC3-C485-4CE0-D7149DEBA642">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 22:06:48 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -81,7 +81,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8CD14831-D628-F26C-7C1B-023A805730CB" name="T_FORNECEDOR PK">
+<identifier id="8CD14831-D628-F26C-7C1B-023A805730CB" name="PK_T_FORNECEDOR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 22:07:26 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -91,6 +91,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A2D60D0B-2EC3-C485-4CE0-D7149DEBA642</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="65F2A9F9-9648-7EE6-EADD-0493AA5601D2" name="UN T FORNECEDOR CNPJ">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:11:25 UTC</createdTime>
+<generatorID>0FEB444F-574B-A67A-56D9-B5BA714396C6</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4DD1C8C1-9B9C-0CA4-15EF-D5C916714FDF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

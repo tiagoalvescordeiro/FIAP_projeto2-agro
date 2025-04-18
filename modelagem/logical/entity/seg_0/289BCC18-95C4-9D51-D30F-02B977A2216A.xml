@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="289BCC18-95C4-9D51-D30F-02B977A2216A" name="T_LEITURA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="289BCC18-95C4-9D51-D30F-02B977A2216A" name="T LEITURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:41:45 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_sensor" id="AD07351D-9579-580C-1306-2E61F9A434D2">
+<Attribute name="cd sensor" id="AD07351D-9579-580C-1306-2E61F9A434D2">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:43:12 UTC</createdTime>
 <generatorID>0E80616F-18B8-28E4-1B76-F0EA3607FB59</generatorID>
@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_leitura" id="D9B781E3-EECB-011F-5176-865A72D419AF">
+<Attribute name="cd leitura" id="D9B781E3-EECB-011F-5176-865A72D419AF">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:42:00 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -81,7 +81,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D3F08119-095E-F5FA-CFBD-8A2CBFB6AE88" name="LEITURA PK">
+<identifier id="D3F08119-095E-F5FA-CFBD-8A2CBFB6AE88" name="PK_T_LEITURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:42:06 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -91,7 +91,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AD07351D-9579-580C-1306-2E61F9A434D2</attributeRef>
-<attributeRef>E51010B0-EB70-9099-614B-8A3EF89B1A3F</attributeRef>
+<attributeRef>D9B781E3-EECB-011F-5176-865A72D419AF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

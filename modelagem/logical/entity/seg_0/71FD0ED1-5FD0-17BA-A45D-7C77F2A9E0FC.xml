@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71FD0ED1-5FD0-17BA-A45D-7C77F2A9E0FC" name="T_INSUMO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71FD0ED1-5FD0-17BA-A45D-7C77F2A9E0FC" name="T INSUMO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:23:29 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_insumo" id="F4123C67-E556-B11F-849D-25A32476EC71">
+<Attribute name="cd insumo" id="F4123C67-E556-B11F-849D-25A32476EC71">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:28:42 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="unidade_medida" id="55FD6068-0525-8980-440C-2C138D28788F">
+<Attribute name="unidade medida" id="55FD6068-0525-8980-440C-2C138D28788F">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:29:28 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -68,7 +68,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="22F04903-E0C4-57B4-B0D7-C5BDA133C165" name="T_INSUMO PK">
+<identifier id="22F04903-E0C4-57B4-B0D7-C5BDA133C165" name="PK_T_INSUMO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:28:52 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -78,6 +78,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F4123C67-E556-B11F-849D-25A32476EC71</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4D99714A-4C38-705B-9EFC-157FEDEBA4D0" name="UN T INSUMO NOME">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:11:25 UTC</createdTime>
+<generatorID>FD0E27D5-70A7-6060-D446-23E07C0955F5</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>5B524315-B476-B467-9E50-CA567C89A12F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

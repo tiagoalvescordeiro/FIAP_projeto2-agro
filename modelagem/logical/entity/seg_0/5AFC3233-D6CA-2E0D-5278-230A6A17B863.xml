@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AFC3233-D6CA-2E0D-5278-230A6A17B863" name="T_APLICACAO_INSUMO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AFC3233-D6CA-2E0D-5278-230A6A17B863" name="T APLICACAO INSUMO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:52:01 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_aplicacao" id="5A8160A8-F5A1-1B05-595B-1E664C690503">
+<Attribute name="cd aplicacao" id="5A8160A8-F5A1-1B05-595B-1E664C690503">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:59:34 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_insumo" id="CD28D433-AC8A-B002-A790-D5517C054A19">
+<Attribute name="cd insumo" id="CD28D433-AC8A-B002-A790-D5517C054A19">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:31:59 UTC</createdTime>
 <generatorID>BC4DB680-A738-81BB-1781-1376FF1209EC</generatorID>
@@ -36,11 +36,12 @@
 <item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
 </engineerTo>
 <referedAttribute>F4123C67-E556-B11F-849D-25A32476EC71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_aplicador" id="91AABACF-F0BB-6856-7292-3EB682C36EF4">
+<Attribute name="cd aplicador" id="91AABACF-F0BB-6856-7292-3EB682C36EF4">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:32:47 UTC</createdTime>
 <generatorID>2930B1DE-0C87-BD8C-2184-8FE3E772941F</generatorID>
@@ -95,7 +96,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B8FB3CCF-7CCE-CA78-5B2A-02E647F90508" name="T_APLICACAO_INSUMO PK">
+<identifier id="B8FB3CCF-7CCE-CA78-5B2A-02E647F90508" name="PK_T_APLIC_INSU">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:31:59 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
