@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9344205-5227-C154-659E-7D27A217F8ED" name="T_APLICADOR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>99E6015C-5BBF-5C00-49B8-FD0BA9294954</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_aplicador" id="738FBA4A-385F-14DE-584E-08F925ED1A90">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>E11F987B-0AA1-F8C3-1AE9-7BD0C4E1F6C7</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_fazenda" id="44AA820F-D6A3-CADD-97C9-59335E72AE7F">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>A1473384-E39A-C418-9DE6-5827C6755FF3</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9F33BFE-D121-4DC6-7900-619A8A9145EC" referredColumn="D0839BD3-0F7A-52CA-71CF-EEA0E676FA51"/>
+</associations>
+</Column>
+<Column name="nome" id="BC785B16-ACEA-1CEC-27DE-0A15BF084117">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>9D47BCC1-FC93-C470-F1B0-BF3ED4C9F38F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="51B522E5-91E7-8B52-3DAD-34CA141647C8">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>9F2A73F0-C7AE-2E42-38C2-C0C0881686ED</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01FDF74D-BA44-B5EF-7956-265AFDDCA52A" name="PK_T_APLICADOR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>E5416C30-FA64-03CE-BCF3-FE8C7A500279</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="738FBA4A-385F-14DE-584E-08F925ED1A90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7409EF53-E7C4-992C-1735-ACBA132EE499" name="FK_T_APLICADOR_T_FAZENDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>019F9D69-7FCB-2913-DB6A-19D2037D6671</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44AA820F-D6A3-CADD-97C9-59335E72AE7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DFC3BBE-43CE-573B-068D-2A4759D8BEB6" name="T_INSUMO_CULTURA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>E6D23844-B0C5-7A05-3CDD-3BC2E592EB32</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cultura" id="6F9E0D5C-FB1B-B407-AFD5-06E6EAC403BC">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>CC480397-3252-801C-A706-06FC68F6D5E8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A11249DA-CEF2-59DD-67C7-79B1CE06A418" referredColumn="5ED96206-A7B1-1B0C-6C6D-7EC3A5D6E269"/>
+</associations>
+</Column>
+<Column name="cd_insumo" id="69B5B626-A378-8EAC-E044-26D5E417F788">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>80EC438B-FEB3-CE87-33D8-F65348717193</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B73213F0-B0B7-9210-07C9-73F9A92D44E0" referredColumn="7237E830-605F-63CC-1C61-92517C56DCCA"/>
+</associations>
+</Column>
+<Column name="quantidade" id="D4048C3A-F058-2576-B9EA-472DA4F4E2A4">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>9D07EDDE-C4CB-2CDD-E4E5-785A745ADE1A</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77547F35-6636-51F4-1BFB-172DFFE78CB3" name="PK_T_INSU_CLTR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>0AAA86CA-B6C1-6CB6-13A0-9368409594D2</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9E0D5C-FB1B-B407-AFD5-06E6EAC403BC"/>
+<colUsage columnID="69B5B626-A378-8EAC-E044-26D5E417F788"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4213FC25-BE84-F9FF-C3E4-5BCB4DAB4A25" name="FK_T_INSU_CLTR_T_INSU">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>A0914DB3-7957-4103-4993-BC28BDA3DA64</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B5B626-A378-8EAC-E044-26D5E417F788"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C8A0EB-88FF-389E-646E-C8926A9B5D1B" name="FK_T_INSU_CLTR_T_CLTR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>1B8912CB-C5E4-E3AD-82FC-5CC815B9052B</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9E0D5C-FB1B-B407-AFD5-06E6EAC403BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_INSUMO_CULTURA_QTD" directorySegmentName="seg_0" id="70B915C3-927A-0613-57CD-D1DA6D604527">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:56:35 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule>quantidade &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

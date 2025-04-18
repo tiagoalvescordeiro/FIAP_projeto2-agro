@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88C2BBF3-2BE8-9D1C-66F9-72C57B59A361" name="T_FUNCIONARIO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>935DE9AD-0951-81C8-F99D-8C09E18350A9</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="51AA7231-092F-AAA6-9A8B-CEF354F7AB4F">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>F4D8B14C-BEED-3650-C12B-9765B4C0E4F6</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_fazenda" id="47DA12D6-757E-D8F5-C58A-5A8A0CAA666C">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>C68196BA-C81D-3D17-A958-4B93FF0A8022</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EBF6670-C7EF-4A48-F078-29BE91BB74FD" referredColumn="D0839BD3-0F7A-52CA-71CF-EEA0E676FA51"/>
+</associations>
+</Column>
+<Column name="cpf" id="E7353D9E-CA01-5458-A3C5-950068614D3E">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:21:26 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="34760D47-E8D7-C010-4396-8F3C47791189">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>A3EB0D52-AAE9-5E17-47A7-061FD4106878</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="690F0B0F-2254-F33C-9806-B013C4D74A9D">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:54:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="9F89D59C-7A65-74A2-4F90-09451524D63D">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>92A6EEA7-BBA9-47E2-256B-9950953122EC</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="264C2B23-81EB-D68B-ED3E-429B3C07C694">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>C84DE888-8849-A9BE-AA40-79DF0B31F160</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="CFD3DB57-D28E-F7DD-39FB-364AEE111020">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>BEAEC1CF-7563-80D1-F7F6-9B39070CB6CD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_contratacao" id="42C88F60-25C7-18E6-DEE5-CDE2EA95A8B9">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>DE235616-43F2-4EC1-F62A-58414A5798B2</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_desligamento" id="3514EC8B-0C25-FB33-9D43-E447DD67E6F4">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>02D10741-35A6-40B1-C1D5-A3E7694BB3CB</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EE4A76D-1F3F-B403-6BB9-695D8D9CE7B7" name="PK_T_FUNCIONARIO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>23899C2A-B016-8451-4B8A-597E2BC550E5</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51AA7231-092F-AAA6-9A8B-CEF354F7AB4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FCBA850-0DD0-2D30-D055-6EFBFAFF2CCF" name="UN_T_FUNC_CPF">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:22:01 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7353D9E-CA01-5458-A3C5-950068614D3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB46CC02-5AA3-5CE0-97AE-4C01114C9FAF" name="FK_T_FUNC_T_FAZENDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>D37AB1A0-8001-D2D6-4A6C-B21A5B438D85</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47DA12D6-757E-D8F5-C58A-5A8A0CAA666C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_FUNC_SALARIO" directorySegmentName="seg_0" id="2CC91951-4B18-8034-E427-B83C8FD1464E">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:55:28 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule>salario &gt;= 1518</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_FUNC_DT_DESLIGAMENTO" directorySegmentName="seg_0" id="05A25773-494A-6188-4DBE-4E509E623DC5">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:57:27 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<rule>data_desligamento &gt; data_contratacao</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

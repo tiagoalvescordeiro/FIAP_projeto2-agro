@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAFAC67C-9A61-9D6C-CEA8-9C1698393671" name="T_FORNECEDOR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:06:24 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_fornecedor" id="A2D60D0B-2EC3-C485-4CE0-D7149DEBA642">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:06:48 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5A16B198-0EC7-821E-6928-3220AC09E22F">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:07:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="4DD1C8C1-9B9C-0CA4-15EF-D5C916714FDF">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:07:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9127C863-F92B-1F9C-CE54-6C7F8B1934EC">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:08:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="9AEDAC13-D24F-3B57-6D28-75ADF65443C7">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:08:41 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CD14831-D628-F26C-7C1B-023A805730CB" name="T_FORNECEDOR PK">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:07:26 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2D60D0B-2EC3-C485-4CE0-D7149DEBA642</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

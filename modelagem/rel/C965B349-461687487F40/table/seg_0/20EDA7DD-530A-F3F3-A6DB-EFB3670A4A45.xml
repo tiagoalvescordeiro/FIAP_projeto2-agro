@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20EDA7DD-530A-F3F3-A6DB-EFB3670A4A45" name="T_FORNECEDOR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>FAFAC67C-9A61-9D6C-CEA8-9C1698393671</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fornecedor" id="CB895974-2BA7-CA8D-274A-0E15091AD7DA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>A2D60D0B-2EC3-C485-4CE0-D7149DEBA642</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="F8D65769-7AC3-AC6D-E5C9-6073697F1F47">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>5A16B198-0EC7-821E-6928-3220AC09E22F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="A7F95D85-A892-3DBC-D999-71C65AF3EAA9">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>4DD1C8C1-9B9C-0CA4-15EF-D5C916714FDF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="2C1C104E-B4CA-18B7-693E-5AFD19AC14B4">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>9127C863-F92B-1F9C-CE54-6C7F8B1934EC</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="3DB497E5-2CAC-C9BF-FD4D-35D9B359930E">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>9AEDAC13-D24F-3B57-6D28-75ADF65443C7</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F004C0B-EBB4-57E1-623D-16D87951BE01" name="PK_T_FORNECEDOR">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>8CD14831-D628-F26C-7C1B-023A805730CB</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB895974-2BA7-CA8D-274A-0E15091AD7DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FEB444F-574B-A67A-56D9-B5BA714396C6" name="UN_T_FORNECEDOR_CNPJ">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:01:50 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F95D85-A892-3DBC-D999-71C65AF3EAA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

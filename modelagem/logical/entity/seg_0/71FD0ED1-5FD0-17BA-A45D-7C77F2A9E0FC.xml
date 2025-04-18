@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71FD0ED1-5FD0-17BA-A45D-7C77F2A9E0FC" name="T_INSUMO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:23:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_insumo" id="F4123C67-E556-B11F-849D-25A32476EC71">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:28:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="EE89DF18-63C6-F203-47B4-D636BA3D18B2">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:28:54 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5B524315-B476-B467-9E50-CA567C89A12F">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:29:19 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidade_medida" id="55FD6068-0525-8980-440C-2C138D28788F">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:29:28 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22F04903-E0C4-57B4-B0D7-C5BDA133C165" name="T_INSUMO PK">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:28:52 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4123C67-E556-B11F-849D-25A32476EC71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

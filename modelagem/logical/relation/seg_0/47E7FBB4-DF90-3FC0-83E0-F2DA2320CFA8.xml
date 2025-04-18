@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cultiva" directorySegmentName="seg_0" id="47E7FBB4-DF90-3FC0-83E0-F2DA2320CFA8">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:09:36 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<sourcePk>C48CA248-D812-5C7A-00D2-BE2C3DD86DC0</sourcePk>
+<targetPk>90B30C31-A76E-F968-F854-E866F29DB550</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AB7C100-E0A5-96B5-9C60-E926EBBEC16D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>938B2903-F0E7-E487-8E5D-9A26182D0196</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

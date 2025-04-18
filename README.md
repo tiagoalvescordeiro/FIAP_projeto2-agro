@@ -1,7 +1,5 @@
-# 📊 FIAP_projeto2 — Modelagem de Banco de Dados
+# 📊 FarmTech Solutions — Modelagem de Banco de Dados
 
-## 🚀 Projeto: FarmTech Solutions
-Modelagem relacional para uma startup de agricultura digital com sensores inteligentes no campo (umidade, pH, NPK, etc.).
 
 ---
 
