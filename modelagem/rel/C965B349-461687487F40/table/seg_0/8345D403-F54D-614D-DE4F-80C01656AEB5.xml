@@ -114,7 +114,7 @@
 <colUsage columnID="C626FC6E-3FB3-0D3E-F813-6647521E820B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7307B81E-82A0-49F2-EB06-9409F45E0545" name="FK_T_APLICACAO_INSUMO_T_INSUMO">
+<ind_PK_UK id="7307B81E-82A0-49F2-EB06-9409F45E0545" name="FK_T_APLI_INS_T_INS">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>BC4DB680-A738-81BB-1781-1376FF1209EC</generatorID>
@@ -125,7 +125,7 @@
 <colUsage columnID="402F7DAB-724C-41B9-DC09-05AAF5AEEA83"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA56E60B-DD84-FE43-58F3-EFFD90AA6ECB" name="FK_T_APLICACAO_INSUMO_T_APLICADOR">
+<ind_PK_UK id="FA56E60B-DD84-FE43-58F3-EFFD90AA6ECB" name="FK_T_APLI_INS_T_APLICDR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>2930B1DE-0C87-BD8C-2184-8FE3E772941F</generatorID>
@@ -136,7 +136,7 @@
 <colUsage columnID="DCC20712-C1F4-FC64-30D2-C4F810A63097"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DCACDB90-840C-1156-5C08-371A142B7E31" name="FK_T_APLICACAO_INSUMO_T_PLANTACAO">
+<ind_PK_UK id="DCACDB90-840C-1156-5C08-371A142B7E31" name="FK_T_APLI_INS_T_PLANT">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-19 01:01:51 UTC</createdTime>
 <generatorID>31B9735E-DD0C-F566-DECC-86C81074F17E</generatorID>
