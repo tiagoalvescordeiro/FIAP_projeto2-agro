@@ -53,7 +53,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="77547F35-6636-51F4-1BFB-172DFFE78CB3" name="PK_T_INSU_CLTR">
+<ind_PK_UK id="77547F35-6636-51F4-1BFB-172DFFE78CB3" name="PK_T_INSUMO_CULTURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>0AAA86CA-B6C1-6CB6-13A0-9368409594D2</generatorID>
@@ -66,7 +66,7 @@
 <colUsage columnID="69B5B626-A378-8EAC-E044-26D5E417F788"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4213FC25-BE84-F9FF-C3E4-5BCB4DAB4A25" name="FK_T_INSU_CLTR_T_INSU">
+<ind_PK_UK id="4213FC25-BE84-F9FF-C3E4-5BCB4DAB4A25" name="FK_T_INSUMO_CULTURA_T_INSUMO">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>A0914DB3-7957-4103-4993-BC28BDA3DA64</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="69B5B626-A378-8EAC-E044-26D5E417F788"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D4C8A0EB-88FF-389E-646E-C8926A9B5D1B" name="FK_T_INSU_CLTR_T_CLTR">
+<ind_PK_UK id="D4C8A0EB-88FF-389E-646E-C8926A9B5D1B" name="FK_T_INSUMO_CULTURA_T_CULTURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>1B8912CB-C5E4-E3AD-82FC-5CC815B9052B</generatorID>

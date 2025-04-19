@@ -68,7 +68,7 @@
 <colUsage columnID="5ED96206-A7B1-1B0C-6C6D-7EC3A5D6E269"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BA96DA77-2121-AD32-9B58-E44AF05AA1F0" name="UN_T_CULTURA_NOME">
+<ind_PK_UK id="BA96DA77-2121-AD32-9B58-E44AF05AA1F0" name="UN_T_CULTURA_nome">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:32:05 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

@@ -19,6 +19,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="cd_unidade_medida" id="7CB207FB-9AAC-3279-1639-48039E6D51CD">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>3E732C09-7A56-4BE3-37B1-6AFD85B70FDD</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="918C518C-3831-1E2E-E534-E16F6C6039C0" referredColumn="7FF98CE0-FB44-06FE-891B-FB148F869DDB"/>
+</associations>
+</Column>
 <Column name="nome" id="1930AE81-D716-284E-BF10-B4826A10E477">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
@@ -50,7 +65,7 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -69,7 +84,7 @@
 <colUsage columnID="7237E830-605F-63CC-1C61-92517C56DCCA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD0E27D5-70A7-6060-D446-23E07C0955F5" name="UN_T_INSUMO_NOME">
+<ind_PK_UK id="FD0E27D5-70A7-6060-D446-23E07C0955F5" name="UN_T_INSUMO_nome">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:32:57 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -77,6 +92,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1930AE81-D716-284E-BF10-B4826A10E477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43216045-8ECF-7836-AC24-E39ACDE5F8E4" name="FK_T_INSUMO_T_UNIDADE_MEDIDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>B618C665-BE92-749D-8209-9E1CD6A14090</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB207FB-9AAC-3279-1639-48039E6D51CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

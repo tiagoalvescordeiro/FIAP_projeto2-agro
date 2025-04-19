@@ -19,6 +19,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="cnpj" id="A7F95D85-A892-3DBC-D999-71C65AF3EAA9">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:20:04 UTC</createdTime>
+<generatorID>4DD1C8C1-9B9C-0CA4-15EF-D5C916714FDF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="nome" id="F8D65769-7AC3-AC6D-E5C9-6073697F1F47">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 22:20:04 UTC</createdTime>
@@ -29,18 +41,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cnpj" id="A7F95D85-A892-3DBC-D999-71C65AF3EAA9">
-<createdBy>henrique</createdBy>
-<createdTime>2025-04-18 22:20:04 UTC</createdTime>
-<generatorID>4DD1C8C1-9B9C-0CA4-15EF-D5C916714FDF</generatorID>
-<ownerDesignName>modelagem</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="email" id="2C1C104E-B4CA-18B7-693E-5AFD19AC14B4">
@@ -62,9 +62,9 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -81,7 +81,7 @@
 <colUsage columnID="CB895974-2BA7-CA8D-274A-0E15091AD7DA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0FEB444F-574B-A67A-56D9-B5BA714396C6" name="UN_T_FORNECEDOR_CNPJ">
+<ind_PK_UK id="0FEB444F-574B-A67A-56D9-B5BA714396C6" name="UN_T_FORNECEDOR_cnpj">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 23:01:50 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

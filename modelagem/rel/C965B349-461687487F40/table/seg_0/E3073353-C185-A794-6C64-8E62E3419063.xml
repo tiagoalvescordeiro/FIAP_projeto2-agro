@@ -25,9 +25,9 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>14</dataTypePrecision>
-<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nome" id="ADD54A77-A854-BC1A-2856-0BD65B75CCA4">
@@ -61,21 +61,9 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cnpjf" id="3059CFED-55A2-524B-B522-643FCBB47CF2">
-<createdBy>henrique</createdBy>
-<createdTime>2025-04-18 22:20:04 UTC</createdTime>
-<generatorID>E25FDFA2-0F90-A4E0-94B5-6FB1C261DA26</generatorID>
-<ownerDesignName>modelagem</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>14</dataTypePrecision>
-<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -92,7 +80,7 @@
 <colUsage columnID="D0839BD3-0F7A-52CA-71CF-EEA0E676FA51"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EAE33F27-EF78-BE9D-CE21-82F2A26607DE" name="UN_T_FAZENDA_CNPJ_NAME">
+<ind_PK_UK id="EAE33F27-EF78-BE9D-CE21-82F2A26607DE" name="UN_T_FAZENDA_cnpj_nome">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:24:01 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>

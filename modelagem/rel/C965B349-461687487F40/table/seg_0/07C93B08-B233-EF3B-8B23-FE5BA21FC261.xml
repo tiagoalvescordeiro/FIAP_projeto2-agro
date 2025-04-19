@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07C93B08-B233-EF3B-8B23-FE5BA21FC261" name="T_UNIDADE_MEDIDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>FCE1A49F-50EA-A7EA-B294-50067FA56B5E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_unidade_medida" id="7FF98CE0-FB44-06FE-891B-FB148F869DDB">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>F8BCD2D7-1CB9-7443-1D49-4538F78C640E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E79C13E4-9F02-D611-FA58-228BC66B4E26">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>27B5B0EB-FD1F-5AC2-758C-A2B631C8B098</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sigla" id="2019EA3D-28A4-4B50-81D0-DB0FAAD5AAF0">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>3CFDB40D-090A-4D74-CEAD-61FC8C0257DC</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B91A1D-D571-B2D0-2B6D-AAF63F48F7DA" name="PK_T_UNIDADE_MEDIDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>F314B5FB-C2A7-82C0-A135-51239E9B5D0D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FF98CE0-FB44-06FE-891B-FB148F869DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

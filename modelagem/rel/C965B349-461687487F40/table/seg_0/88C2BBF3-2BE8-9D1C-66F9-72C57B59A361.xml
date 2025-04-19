@@ -40,9 +40,9 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="email" id="34760D47-E8D7-C010-4396-8F3C47791189">
@@ -88,9 +88,9 @@
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="endereco" id="CFD3DB57-D28E-F7DD-39FB-364AEE111020">
@@ -128,6 +128,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="salario1" id="A45BD81A-B32D-BCA7-617B-19E4F519D2CE">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:56:45 UTC</createdTime>
+<generatorID>29BBD3F6-3BB5-95CA-7E31-A9C00E7833C9</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3EE4A76D-1F3F-B403-6BB9-695D8D9CE7B7" name="PK_T_FUNCIONARIO">
@@ -142,7 +155,7 @@
 <colUsage columnID="51AA7231-092F-AAA6-9A8B-CEF354F7AB4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1FCBA850-0DD0-2D30-D055-6EFBFAFF2CCF" name="UN_T_FUNC_CPF">
+<ind_PK_UK id="1FCBA850-0DD0-2D30-D055-6EFBFAFF2CCF" name="UN_T_FUNCIONARIO_cpf">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:22:01 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -152,7 +165,7 @@
 <colUsage columnID="E7353D9E-CA01-5458-A3C5-950068614D3E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AB46CC02-5AA3-5CE0-97AE-4C01114C9FAF" name="FK_T_FUNC_T_FAZENDA">
+<ind_PK_UK id="AB46CC02-5AA3-5CE0-97AE-4C01114C9FAF" name="FK_T_FUNCIONARIO_T_FAZENDA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
 <generatorID>D37AB1A0-8001-D2D6-4A6C-B21A5B438D85</generatorID>
@@ -168,6 +181,7 @@
 <tableCheckConstraint name="CK_FUNC_SALARIO" directorySegmentName="seg_0" id="2CC91951-4B18-8034-E427-B83C8FD1464E">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:55:28 UTC</createdTime>
+<commentInRDBMS>salario minimo atual em 18/04/2025</commentInRDBMS>
 <ownerDesignName>modelagem</ownerDesignName>
 <rule>salario &gt;= 1518</rule>
 </tableCheckConstraint>

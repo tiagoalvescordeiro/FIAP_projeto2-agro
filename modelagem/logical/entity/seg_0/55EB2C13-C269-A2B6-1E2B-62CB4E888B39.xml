@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55EB2C13-C269-A2B6-1E2B-62CB4E888B39" name="T SENSOR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55EB2C13-C269-A2B6-1E2B-62CB4E888B39" name="T_SENSOR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:36:18 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd sensor" id="D6788BF5-8B62-6797-73B9-F32335CD6AEF">
+<Attribute name="cd_sensor" id="D6788BF5-8B62-6797-73B9-F32335CD6AEF">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:36:35 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd fazenda" id="2B9EF42E-8C22-ECDC-38EE-6314E899C7BF">
+<Attribute name="cd_fazenda" id="2B9EF42E-8C22-ECDC-38EE-6314E899C7BF">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:15:57 UTC</createdTime>
 <generatorID>916CE7F3-7396-0576-0D69-DD03B4D686B4</generatorID>
@@ -81,7 +81,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="posicao x" id="9DCC384F-6740-83CD-0826-55FB96142493">
+<Attribute name="posicao_x" id="9DCC384F-6740-83CD-0826-55FB96142493">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:41:26 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -109,29 +109,15 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="posicao y" id="25F5925B-95B8-2580-1DCB-5DE75654870F">
-<createdBy>henrique</createdBy>
-<createdTime>2025-04-18 23:11:25 UTC</createdTime>
-<generatorID>5B21EA83-2769-E2B5-76FB-95F3CC2E1959</generatorID>
-<ownerDesignName>modelagem</ownerDesignName>
-<engineerTo>
-<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,3,2</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A8BB2935-B071-D28C-B011-95DAEF21A2FC" name="PK_T_SENSOR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:36:46 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="938B2903-F0E7-E487-8E5D-9A26182D0196" name="T CULTURA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="938B2903-F0E7-E487-8E5D-9A26182D0196" name="T_CULTURA">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:23:56 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd cultura" id="707528DA-91CD-7B60-D1C3-5C9F5C2E4E2A">
+<Attribute name="cd_cultura" id="707528DA-91CD-7B60-D1C3-5C9F5C2E4E2A">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:07:08 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tmp colheita dias" id="71183066-129B-4607-8BC4-1CC6292E4512">
+<Attribute name="tmp_colheita_dias" id="71183066-129B-4607-8BC4-1CC6292E4512">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:07:37 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -71,22 +71,25 @@
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:07:23 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>707528DA-91CD-7B60-D1C3-5C9F5C2E4E2A</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="84CF7FC8-CD0E-B9EA-DB40-A8387E2E083A" name="UN T CULTURA NOME">
+<identifier id="84CF7FC8-CD0E-B9EA-DB40-A8387E2E083A" name="UN_T_CULTURA_NOME">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 23:11:25 UTC</createdTime>
 <generatorID>BA96DA77-2121-AD32-9B58-E44AF05AA1F0</generatorID>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
 </engineerTo>
+<newElementsIDs>ADB4443D-0491-BAB7-1BAB-AD02C905A0CD</newElementsIDs>
 <usedAttributes>
 <attributeRef>ADB4443D-0491-BAB7-1BAB-AD02C905A0CD</attributeRef>
 </usedAttributes>

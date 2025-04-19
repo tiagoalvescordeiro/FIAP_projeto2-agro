@@ -8,14 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cd_leitura" id="2279ED0A-D4AD-30D6-C9CB-80137B27CD62">
+<Column name="dt_leitura" id="C4036877-DC40-416F-843A-F774BCC94453">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-18 17:04:11 UTC</createdTime>
-<generatorID>D9B781E3-EECB-011F-5176-865A72D419AF</generatorID>
+<generatorID>142B6352-D3BF-2761-91C3-2A4CB6A8C1A3</generatorID>
 <ownerDesignName>modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -47,17 +47,6 @@
 <ownDataTypeParameters>,7,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="timestamp" id="C4036877-DC40-416F-843A-F774BCC94453">
-<createdBy>henrique</createdBy>
-<createdTime>2025-04-18 17:04:11 UTC</createdTime>
-<generatorID>142B6352-D3BF-2761-91C3-2A4CB6A8C1A3</generatorID>
-<ownerDesignName>modelagem</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7DE07011-E15F-2F66-EDB7-1C75187E0961" name="PK_T_LEITURA">
@@ -70,7 +59,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A6753B2B-3319-B02E-63D1-25219952F1B4"/>
-<colUsage columnID="2279ED0A-D4AD-30D6-C9CB-80137B27CD62"/>
+<colUsage columnID="C4036877-DC40-416F-843A-F774BCC94453"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="ACBE55FE-888D-7CD5-607B-2B0BCA370D0E" name="FK_T_LEITURA_T_SENSOR">

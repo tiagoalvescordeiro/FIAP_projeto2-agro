@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99E6015C-5BBF-5C00-49B8-FD0BA9294954" name="T APLICADOR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99E6015C-5BBF-5C00-49B8-FD0BA9294954" name="T_APLICADOR">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 00:52:34 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd aplicador" id="E11F987B-0AA1-F8C3-1AE9-7BD0C4E1F6C7">
+<Attribute name="cd_aplicador" id="E11F987B-0AA1-F8C3-1AE9-7BD0C4E1F6C7">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:27:24 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd fazenda" id="A1473384-E39A-C418-9DE6-5827C6755FF3">
+<Attribute name="cd_fazenda" id="A1473384-E39A-C418-9DE6-5827C6755FF3">
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 02:19:37 UTC</createdTime>
 <generatorID>019F9D69-7FCB-2913-DB6A-19D2037D6671</generatorID>
@@ -73,8 +73,9 @@
 <createdBy>henrique</createdBy>
 <createdTime>2025-04-17 01:27:41 UTC</createdTime>
 <ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
