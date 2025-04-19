@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="935DE9AD-0951-81C8-F99D-8C09E18350A9" name="T_FUNCIONARIO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 01:24:25 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd funcionario" id="F4D8B14C-BEED-3650-C12B-9765B4C0E4F6">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:11:57 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_fazenda" id="C68196BA-C81D-3D17-A958-4B93FF0A8022">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:13:46 UTC</createdTime>
+<generatorID>D37AB1A0-8001-D2D6-4A6C-B21A5B438D85</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<referedAttribute>FC212BC7-3605-F03E-034E-2E6658529DDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="8CAB4698-CB8B-B7F0-B069-1FFF35A906B5">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:11:25 UTC</createdTime>
+<generatorID>E7353D9E-CA01-5458-A3C5-950068614D3E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="92A6EEA7-BBA9-47E2-256B-9950953122EC">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:12:04 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="29BBD3F6-3BB5-95CA-7E31-A9C00E7833C9">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:53:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="A3EB0D52-AAE9-5E17-47A7-061FD4106878">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:12:29 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C84DE888-8849-A9BE-AA40-79DF0B31F160">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:12:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="BEAEC1CF-7563-80D1-F7F6-9B39070CB6CD">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:12:28 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_contratacao" id="DE235616-43F2-4EC1-F62A-58414A5798B2">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:12:50 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_desligamento" id="02D10741-35A6-40B1-C1D5-A3E7694BB3CB">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:13:02 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="C509B9CE-A12E-6C77-65D3-B17B446D4578">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:11:25 UTC</createdTime>
+<generatorID>690F0B0F-2254-F33C-9806-B013C4D74A9D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23899C2A-B016-8451-4B8A-597E2BC550E5" name="PK_T_FUNCIONARIO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:12:03 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4D8B14C-BEED-3650-C12B-9765B4C0E4F6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="240F9052-C178-8213-6742-90D698F0B68C" name="UN_T_FUNC_CPF">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 23:11:25 UTC</createdTime>
+<generatorID>1FCBA850-0DD0-2D30-D055-6EFBFAFF2CCF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
+</engineerTo>
+<newElementsIDs>8CAB4698-CB8B-B7F0-B069-1FFF35A906B5</newElementsIDs>
+<usedAttributes>
+<attributeRef>8CAB4698-CB8B-B7F0-B069-1FFF35A906B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T COMPRA T FORNECEDOR" directorySegmentName="seg_0" id="97FD07ED-7411-89D5-105C-95BB830742C5">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 22:11:00 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<sourcePk>8CD14831-D628-F26C-7C1B-023A805730CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FAFAC67C-9A61-9D6C-CEA8-9C1698393671</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42B8DDF4-3742-5755-EA01-3E5836E41821</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T INSU CLTR T INSU" directorySegmentName="seg_0" id="A0914DB3-7957-4103-4993-BC28BDA3DA64">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:56:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<sourcePk>22F04903-E0C4-57B4-B0D7-C5BDA133C165</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71FD0ED1-5FD0-17BA-A45D-7C77F2A9E0FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6D23844-B0C5-7A05-3CDD-3BC2E592EB32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

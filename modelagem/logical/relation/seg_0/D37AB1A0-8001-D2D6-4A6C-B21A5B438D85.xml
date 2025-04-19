@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T FUNC T FAZENDA" directorySegmentName="seg_0" id="D37AB1A0-8001-D2D6-4A6C-B21A5B438D85">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:13:46 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<sourcePk>FA49093F-C95F-EDA6-670D-E741519D4910</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83F6027C-C4CA-1DB2-761D-2DA4E866BE41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>935DE9AD-0951-81C8-F99D-8C09E18350A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

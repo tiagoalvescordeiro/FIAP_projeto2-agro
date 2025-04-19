@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C92C4F3-47ED-4697-C6B0-281D637004CD" name="T_ITEM_COMPRA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>94A43397-CB0E-C573-C6BA-4581F0FA2D11</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_item" id="EFF9C75E-F118-BC98-D0D0-EE8E4D9D73C2">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>7B595F4B-762E-EC72-6529-09FD26D69AD9</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_compra" id="EEC4D08D-33D5-0490-E3A3-D50B2DC02C2E">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>A7050083-A0AB-E1BC-7E6D-1AA433FA4B07</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA04C75F-08BA-FF49-0670-42EBC38E4D80" referredColumn="2102FB52-3C96-B137-96A7-47E76E7651A7"/>
+</associations>
+</Column>
+<Column name="cd_insumo" id="AC7DC0FF-2D73-34F9-64CD-B3EBEEC627AD">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>83F03BE0-3970-9864-532D-B4BA2C89126D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="048E0026-352A-2484-59AD-7EDBE4F89BCC" referredColumn="7237E830-605F-63CC-1C61-92517C56DCCA"/>
+</associations>
+</Column>
+<Column name="descricao" id="DB5D8E18-7502-87CA-FA9E-0AC21D7F8C9E">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>88D6BB5B-1267-FCC5-DE36-67AFB593B7B4</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_uni" id="4CF45046-E2AB-D247-8E17-C6EAF502FB54">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>23F503BD-799B-75EC-918B-4A71A7AF4A20</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="C2F6C0AE-E491-FA14-FA57-B8D718AD3284">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>24D6AE4F-94B0-2339-40CF-2405B93A9488</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C28ABE00-5860-6CFD-4644-743AA431A0CD" name="PK_T_ITEM_COMPRA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>A62CF5E4-829D-9A02-39E8-69DF94573CA3</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF9C75E-F118-BC98-D0D0-EE8E4D9D73C2"/>
+<colUsage columnID="EEC4D08D-33D5-0490-E3A3-D50B2DC02C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7AA570E-E903-E4EA-7CD0-77F4FBD98580" name="FK_T_ITEM_COMPRA_T_INSUMO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>0F25F471-CA08-26B4-710E-10D7D09D78A8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7DC0FF-2D73-34F9-64CD-B3EBEEC627AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCA63866-CF4B-085E-C039-977423673FD4" name="FK_T_ITEM_COMPRA_T_COMPRA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 01:01:51 UTC</createdTime>
+<generatorID>9EFEBAF7-1958-9F4C-2EEB-2F3D7E055097</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC4D08D-33D5-0490-E3A3-D50B2DC02C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

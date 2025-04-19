@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94A43397-CB0E-C573-C6BA-4581F0FA2D11" name="T_ITEM_COMPRA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:14:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_item" id="7B595F4B-762E-EC72-6529-09FD26D69AD9">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:14:18 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_compra" id="A7050083-A0AB-E1BC-7E6D-1AA433FA4B07">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:20:44 UTC</createdTime>
+<generatorID>9EFEBAF7-1958-9F4C-2EEB-2F3D7E055097</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<referedAttribute>C2F4C72B-C927-826F-A496-44818D454AA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_insumo" id="83F03BE0-3970-9864-532D-B4BA2C89126D">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:38:16 UTC</createdTime>
+<generatorID>0F25F471-CA08-26B4-710E-10D7D09D78A8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<referedAttribute>F4123C67-E556-B11F-849D-25A32476EC71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="88D6BB5B-1267-FCC5-DE36-67AFB593B7B4">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:14:47 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_uni" id="23F503BD-799B-75EC-918B-4A71A7AF4A20">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:15:45 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="24D6AE4F-94B0-2339-40CF-2405B93A9488">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:16:19 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A62CF5E4-829D-9A02-39E8-69DF94573CA3" name="T_ITEM_COMPRA PK">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-19 00:14:46 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B595F4B-762E-EC72-6529-09FD26D69AD9</attributeRef>
+<attributeRef>A7050083-A0AB-E1BC-7E6D-1AA433FA4B07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

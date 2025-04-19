@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B6B80BB-1DD4-6F58-930D-D74026DB7D25" name="T_PLANTACAO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>8AB7C100-E0A5-96B5-9C60-E926EBBEC16D</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_plantacao" id="2A7198D0-3446-5860-91E7-546116AE44D4">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>7DC59372-5564-A845-E901-92B26B5B1FDB</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_fazenda" id="218F98E5-2D3A-2D53-57D1-FE925C5E7604">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>D8C2C667-821A-CD60-27F5-49569CB5B98E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="588B2B28-D175-31F2-A64D-33E1AD379C2C" referredColumn="D0839BD3-0F7A-52CA-71CF-EEA0E676FA51"/>
+</associations>
+</Column>
+<Column name="cd_cultura" id="13FD4427-7220-2C35-5AAC-46082EB72635">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>B0C5FB9E-9341-6D6F-3B1F-DF71E09D175E</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC997C1F-316D-4C65-E8B5-4F046DB8EACD" referredColumn="5ED96206-A7B1-1B0C-6C6D-7EC3A5D6E269"/>
+</associations>
+</Column>
+<Column name="largura" id="3231E65C-5C6A-A56F-3A9F-2D352014D6F8">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>2C3F8457-61B3-6333-FE8D-B41071AF7EEF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="29663EEB-1EBC-4C57-7566-ED600D9BF917">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>A5241864-E4CD-483F-754E-DE5F36331655</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_plantio" id="B60A6665-E5DB-05D7-8A0B-37FB81D715FC">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>5262A829-95E8-E31D-40AA-C740A3AAF5CF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_colheita" id="88A548FF-6707-12B9-FA5A-F54F267CC33B">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>8A3C89DC-63A5-C495-31A2-B7F5CC7BD87F</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="608210D1-E960-44C2-A9E0-407C8332087A" name="PK_T_PLANTACAO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>C48CA248-D812-5C7A-00D2-BE2C3DD86DC0</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A7198D0-3446-5860-91E7-546116AE44D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DC1253E-6480-5AB1-7026-B4DD1E8CFE49" name="IDX_PLANTACAO">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>47E7FBB4-DF90-3FC0-83E0-F2DA2320CFA8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="13FD4427-7220-2C35-5AAC-46082EB72635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF427ABB-4092-F151-5D9B-76B3F828F6EE" name="FK_T_PLANTACAO_T_CULTURA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>47E7FBB4-DF90-3FC0-83E0-F2DA2320CFA8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FD4427-7220-2C35-5AAC-46082EB72635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956C4A0C-3481-ADB1-A864-3B12ABDE6832" name="FK_T_PLANTACAO_T_FAZENDA">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-18 17:04:11 UTC</createdTime>
+<generatorID>A2F689C6-982A-68F3-A037-5FA72EC53BDF</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="218F98E5-2D3A-2D53-57D1-FE925C5E7604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FIAP_projeto2_modelo" id="5AFD6F4C-383C-5D89-AA7B-B89E1A1E59B8" version="3.5">
-<createdBy>Usuario</createdBy>
-<createdTime>2025-04-04 01:13:32 UTC</createdTime>
-<ownerDesignName>FIAP_projeto2_modelo</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>5AFD6F4C-383C-5D89-AA7B-B89E1A1E59B8</designId>
-</OSDM_Design>

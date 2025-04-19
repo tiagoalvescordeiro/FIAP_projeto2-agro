@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK T APLICADOR T FAZENDA" directorySegmentName="seg_0" id="019F9D69-7FCB-2913-DB6A-19D2037D6671">
+<createdBy>henrique</createdBy>
+<createdTime>2025-04-17 02:19:37 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="C965B349-0DC9-2F5A-52F9-461687487F40" value="true"/>
+</engineerTo>
+<sourcePk>FA49093F-C95F-EDA6-670D-E741519D4910</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83F6027C-C4CA-1DB2-761D-2DA4E866BE41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99E6015C-5BBF-5C00-49B8-FD0BA9294954</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
